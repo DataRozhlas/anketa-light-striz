@@ -38,5 +38,5 @@ function onLoad(e) {
 
 const r = new XMLHttpRequest();
 r.addEventListener('load', onLoad);
-r.open('GET', `${host}/data.json`);
+r.open('GET', `${host}data.json`);
 r.send();
