@@ -1,0 +1,72 @@
+ol.snowfall,
+ul.snowfall {
+    list-style: initial !important;
+    font-size: medium !important;
+    line-height: 1.5 !important
+}
+
+ol.snowfall>li,
+ul.snowfall>li {
+    background: 0 0 !important;
+    margin: 0 !important;
+    padding: 0 !important
+}
+
+hr.snowfall {
+    max-width: none !important
+}
+
+#anketa {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+
+.respondent {
+    width: 143px;
+    padding: 10px;
+    margin-bottom: 20px
+}
+
+.portret {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: 50% 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2px;
+    border-radius: 50%
+}
+
+.bio {
+    text-align: center;
+    background-color: #f5f5f5;
+    margin-bottom: 3px;
+    font-size: 85%
+}
+
+.jmeno {
+    font-weight: 700
+}
+
+.odpoved {
+    font-size: 80%;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 1px
+}
+
+#lineup {
+    height: 600px
+}
+
+.page-inverse .odpoved {
+    color: #fff
+}
+
+.page-inverse .bio {
+    color: #fff;
+    background-color: #a9a9a9
+}
